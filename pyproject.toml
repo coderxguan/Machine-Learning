@@ -1,0 +1,15 @@
+[project]
+name = "machine-learning"
+version = "0.1.0"
+description = "Machine Learning algorithms implementation and practice"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "jupyterlab",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
